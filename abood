@@ -1,0 +1,18 @@
+// JavaScript code for service showcase website
+
+// تحديد العناصر الهامة في الصفحة
+const serviceCards = document.querySelectorAll('.service-card'); // اختيار كل بطاقة خدمة
+const contactButton = document.getElementById('contact-button'); // اختيار زر التواصل
+
+// إضافة حدث استماع لكل بطاقة خدمة للتحكم بتفاعل المستخدم معها
+serviceCards.forEach(card => {
+  card.addEventListener('click', function() {
+    // تنفيذ الإجراءات اللازمة عند نقر المستخدم على بطاقة الخدمة، مثل فتح صفحة التفاصيل أو إظهار معلومات إضافية
+    // يمكنك تغيير هذا الجزء ليتناسب مع سيناريو استخدام موقعك الخاص
+  });
+});
+
+// إضافة حدث استماع لزر التواصل لإجراء إجراء معين عند النقر عليه
+contactButton.addEventListener('click', function() {
+  // يمكنك هنا تنفيذ أي إجراء يتعلق بفتح نافذة للتواصل مع المستخدم، مثل فتح نموذج اتصال أو توجيه المستخدم إلى صفحة اتصال منفصلة
+});
